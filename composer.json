@@ -1,0 +1,25 @@
+{
+	"name": "chenyongze/yii2-payment",
+	"description": "payment system",
+	"keywords": ["yii2", "chenyongze", "payment"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/chenyongze/yii2-payment/issues",
+		"wiki": "https://github.com/chenyongze/yii2-payment/wiki",
+		"source": "https://github.com/chenyongze/yii2-payment"
+	},
+	"authors": [
+		{
+			"name": "chenyongze",
+			"email": "sapphire.php@gmail.com"
+		}
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "xiewulong/yii2-qrcode": "*"
+    },
+	"autoload": {
+		"psr-4": {"yii\\payment\\": ""}
+	}
+}
